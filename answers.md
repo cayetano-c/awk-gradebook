@@ -1,0 +1,1 @@
+## Task 1 Command: awk -F',' 'NR > 1 { count++ } END { print count }' Lab03-data.csv Result: 322 Explanation: The field separator is set to a comma. It checks if the current line number is greater than 1 to skip the header, increments a counter for each record, and prints the total at the end.
